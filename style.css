@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Pretendard-Regular' !important;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    background-color: #E1F4F4;
+    display: flex !important;
+    justify-content: space-between;
+    font-weight: 600 !important;
+}
+
+#page {
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10%;
+    border: 1px solid black;
+    position: fixed;
+    left: 2rem;
+    top: 10rem;
+    background-color: #E1F4F4;
+    a {
+        color: black;
+        border-bottom: 1px solid black;
+        padding: 1rem;
+    }
+    a:last-child {
+        border-bottom: none;
+    }
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    gap: 5%;
+    cursor: pointer;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 30%;
+    cursor: pointer;
+}
+
+.blog {
+    font-size: 1.75rem;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #EE81A5;
+}
+
+ul {
+    width: 90%;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    padding: 1% 5% !important;
+    border-bottom: 1px solid black !important; 
+}
+
+li {
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px !important;
+    color: #52C1BF;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold !important;
+    a {
+        color: #52C1BF;
+    }
+}
+
+.now {
+    background-color: #52C1BF;
+    a {
+        color: white;
+    }
+}
+
+.trip-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 1% 5%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: black;
+    cursor: pointer;
+}
+
+.trip {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+
+.trip-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    p {
+        color: grey;
+    }
+}
+
+.heart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
